@@ -27,3 +27,5 @@ if __name__ == "__main__":
     for log in logs:
         label = classify_with_bert(log)
         print(log, "->", label)
+
+        
